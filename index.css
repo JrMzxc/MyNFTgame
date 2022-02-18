@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo-color{
+    color: #A22FA2;
+}
+/* navbar */
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.4s
+}
+.nav-item:hover::after {
+    width: 100%
+}
+@media (max-width: 575.98px) {
+    .nav-item:hover::after{
+        width: 14%;
+    }
+}
+/* button */
+.navbar-nav .btn{
+    margin-left: 9px;
+    margin-right: 9px;
+    background-color: goldenrod;
+}
+.btn{
+    background-color: goldenrod;
+    color: white;
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* header */
+.header{
+    background: #902190;
+    height: 99vh;
+    position: relative;
+}
+
+.nft{
+    font-size: 80px;
+    color: white;
+    margin-top: 40px;
+}
+@media (max-width: 575.98px){
+    .nft{
+        font-size: 70px;
+    }
+}
+.nft-p{
+    font-size: 18px;
+}
+@media (max-width: 575.98px){
+    .nft-p{
+        font-size: 15px;
+    }
+}
+.images{
+    position: relative;
+    margin-top: 8%;
+}
+@media (max-width: 575.98px){
+    .images{
+        height: 60%;
+        width: 100%;
+        margin-bottom: -20%;
+        position: relative;
+        margin-top: 8%;
+        
+        
+        
+        
+    }
+}
+
+/* monster */
+#Monster{
+    background-color: #902190;
+}
+.monster-text{
+    color: black;
+    font-size: 20px;
+}
+@media (max-width: 575.98px){
+    .monster-text{
+        font-size: 20px;
+    }
+}
+.line-color{
+    color: aliceblue;
+}
+@media (max-width: 575.98px){
+    .line-color{
+        font-size: 9px;
+        width: 100%;
+    }
+}
+/* partners */
+.partners-title{
+    margin-top: 10%;
+}
+.partnerss{
+    margin-top: 13%;
+}
+.partner{
+    font-size: 30px;
+}
+/* developer */
+.developer-team{
+    margin-top: 8%;
+}
+.me{
+    border-radius: 50%;
+    width: 30%;
+    filter: grayscale(1);
+    transition: 0.2s ;
+}
+.me:hover{
+    filter: none;
+}
+
+/*footer */
+.footer{
+    height: 50vh;
+    margin-top: 10%;
+}
+.ul-list{
+    list-style-type: none;
+    
+}
+.footer-list{
+    font-size: 17px;
+}
+.footer-a{
+    transition: .2s;
+}
+.footer-a:hover{
+    color: yellow;
+}
+.footer-2{
+    font-size: 13px;
+}
+
+
+
+/* books */
+.castle-content{
+    padding-top:  10%;
+}
+.castle-bottom{
+    margin-bottom: 10%;
+}
+
+.text-paper{
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+/* potion */
+.text-potion{
+    padding-top: 10%;
+}
+
+
+/* appstore */
+
+.app-text{
+    padding-top: 10%;
+}
+.appstores{
+    margin-bottom: 18%;
+}
+
+
+
+
+
+
+
+/* PLAYNOW */
+.playnow{
+    padding-top: 15%;
+    color: rgba(180, 1, 94, 0.8)
+}
+.text-coming{
+    font-size: 80px;
+}
+
+
